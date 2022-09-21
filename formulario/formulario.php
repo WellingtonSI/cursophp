@@ -41,13 +41,15 @@
         }
     }
 
-    
+    error_reporting(~E_ALL);
 ?>
+
 <?php foreach($erros as $erro): ?>
-    <div class="alert alert-danger" role="alert"> -->
-       <?= "" ?>
+
+    <div class="alert alert-danger" role="alert"> 
+       <?= $erro ?>
     </div> 
-<?php endforeach ?>
+<?php endforeach  ?>
 
 <form action="#" method="post">
     <div class="form-row">
