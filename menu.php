@@ -18,6 +18,11 @@
                 </a>
             </li>
             <li>
+                <a href="exercicio.php?dir=db&file=inserir_2">
+                    Inserir Registro #02
+                </a>
+            </li>
+            <li>
                 <a href="exercicio.php?dir=db&file=consultar">
                     Consultar Registros
                 </a>
@@ -25,6 +30,16 @@
             <li>
                 <a href="exercicio.php?dir=db&file=excluir_1">
                     Execluir Registros #01
+                </a>
+            </li>
+            <li>
+                <a href="exercicio.php?dir=db&file=excluir_2">
+                    Execluir Registros #02
+                </a>
+            </li>
+            <li>
+                <a href="exercicio.php?dir=db&file=alterar">
+                    Alterar Registros 
                 </a>
             </li>
         </ul>
