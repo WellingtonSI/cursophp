@@ -1,7 +1,7 @@
 <?php
 
 function novaConexao($banco = 'curso_php'){
-    $servidor = '172.17.0.2'; //trocar pra "127.0.0.1" caso utilize xampp|mamp, ou utilizar o ip correto que está marcado nas configurações do container do mysql ( "docker inspect NAME|ID" para saber o ip correto) 
+    $servidor = '172.19.0.2'; //trocar pra "127.0.0.1" caso utilize xampp|mamp, ou utilizar o ip correto que está marcado nas configurações do container do mysql ( "docker inspect NAME|ID" para saber o ip correto) 
     $usuario = 'root';
     $senha = 'root';
 

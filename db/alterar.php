@@ -98,12 +98,12 @@ if($_GET['codigo']){
 <form action="/exercicio.php" method="get">
     <input type="hidden" name="dir" value="db">
     <input type="hidden" name="file" value="alterar">
-    <div class="form-group rot">
+    <div class="form-group row">
         <div class="col-sm-10">
             <input type="number" name="codigo" class="form-control" value="<?= $_GET['codigo']?>" placeholder="Informe o código para a consulta">
         </div>
         <div class="col-sm-2">
-            <button class="btn btn-success md-4"> Consultar</button>
+            <button class="btn btn-success mb-4"> Consultar</button>
         </div>
     </div>
 </form>
